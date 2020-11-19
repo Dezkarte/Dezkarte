@@ -8,7 +8,7 @@
 <a href="https://github.com/Dezkarte"><img title="Author" src="https://img.shields.io/badge/DEZKARTE-DEV-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://www.codefactor.io/repository/github/dezkarte/dezkarte/stats"><img title="Rating" src="https://www.codefactor.io/repository/github/dezkarte/dezkarte/badge/master"></a>
+<a href="https://www.codefactor.io/repository/github/dezkarte/dezkarte"><img title="Rating" src="https://www.codefactor.io/repository/github/dezkarte/dezkarte/badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/arugaz/followers"><img title="Followers" src="https://img.shields.io/github/followers/arugaz?color=blue&style=flat-square"></a>
