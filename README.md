@@ -19,177 +19,43 @@
 </p>
 <div align="center">
 <details>
- <summary>🥟 Help me!</summary>
+ <summary>🥟 !</summary>
  
- [Trakteer](https://trakteer.id/arugabot)
+ [Trakteer](https://trakteer.id/dezkarte)
  
 </details>
 
-ini semua gratis, jangan pelit ⭐️ ya :D
-<p align="center"><a href="https://arugaz.herokuapp.com/" target="_blank">Free Rest APIs</a>.</p>
-<p align="center"><a href="https://wa.me/6281574780701?text=%23menu" target="_blank">My Whatsapp BOT</a>.</p>
-<p align="center"><a href="https://wa.me/6281355538777?text=hi" target="_blank">My Whatsapp</a>.</p>
+todo es gratis, no seas tacaño ⭐️ sí: D
+<p align="center"><a href="https://wa.me/50662022222?text=%23menu" target="_blank">My Whatsapp BOT</a>.</p>
+<p align="center"><a href="https://wa.me/17066666666?text=hi" target="_blank">My Whatsapp</a>.</p>
 </div>
 
-## Getting Started
+## Empecemos
 
-This project require NodeJS v12.
+Este proyecto requiere como minimo NodeJS v12 o una version superior.
 
-### Install
-Clone this project
+### Instalación
+Clonar este proyecto
 
 ```bash
 > git clone https://github.com/ArugaZ/whatsapp-bot.git
 > cd whatsapp-bot
 ```
 
-Install the dependencies:
+Instalar las dependencias:
 
 ```bash
 > npm install 
 > npm install gify-cli -g
 ```
 
-### Usage
-Run the Whatsapp bot
+### Uso
+Ejecuta el bot de Whatsapp
 
 ```bash
 > npm start
 ```
 
-after running it you need to scan the qr
-
-### Information
-- Change ownerNumber on [this section](https://github.com/ArugaZ/whatsapp-bot/blob/master/settings/setting.json#L2)
-- Change groupLimit on [this section](https://github.com/ArugaZ/whatsapp-bot/blob/master/settings/setting.json#L3)
-- Change memberLimit on [this section](https://github.com/ArugaZ/whatsapp-bot/blob/master/settings/setting.json#L4)
-- Change prefix on [this section](https://github.com/ArugaZ/whatsapp-bot/blob/master/settings/setting.json#L5)
-- Change menu on [this section](https://github.com/ArugaZ/whatsapp-bot/blob/master/lib/menu.js#L32)
-- Add kata kasar on [this section](https://github.com/ArugaZ/whatsapp-bot/blob/master/lib/kataKotor.js#L8)
-- Change all apiKey on [this section](https://github.com/ArugaZ/whatsapp-bot/blob/master/settings/api.json)
-- Get Api NoBackground on [this website](https://www.remove.bg/)
-- Get Api ScreenShot on [this website](https://apiflash.com/)
-- Get Api Simi-simi on [this website](https://workshop.simsimi.com/en/), masih limit api simi-siminya? [cek ini](https://github.com/ArugaZ/whatsapp-bot/issues/38#issuecomment-726981060)
+después de ejecutarlo, debes escanear el codigo QR
 
 ---
-
-## Features
-
-| 18+ |Yes|
-| ------------- | ------------- |
-| Nekopoi |❎|
-
-| Creator |Yes|
-| ------------- | ------------- |
-| Respond img to sticker|✅|
-| Respond img to sticker no bg|✅|
-| Respond url to sticker|✅|
-| Respond gif to sticker|✅|
-| Respond giphy url to sticker|✅|
-| Make a meme from photo|✅|
-| Quotes maker result pict|✅|
-| Nulis Bot|✅|
-
-| Islam |Yes|
-| ------------- | ------------- |
-| List Surah|✅|
-| Info Surah|✅|
-| Surah|✅|
-| Tafsir Alquran|✅|
-| Alquran Audio/Voice|✅|
-| Jadwal solat|✅|
-
-| Downloader |Yes|
-| ------------- | ------------- |
-| Instagram |✅|
-| Youtube Music |✅|
-| Youtube Video |✅|
-
-| Fun Group! |Yes|
-| ------------- | ------------- |
-| Simi-simi BOT|✅|
-| Anti kata kasar|✅|
-
-| Primbon |Yes|
-| ------------- | ------------- |
-| Arti nama |✅|
-| Cek Jodoh |✅|
-
-| Searchs |Yes|
-| ------------- | ------------- |
-| Images |✅|
-| Subreddit |✅|
-| Resep makanan |✅|
-| Stalk IG |✅|
-| Wikipedia |✅|
-| Cuaca |✅|
-| Chord musik |✅|
-| Lirik musik |✅|
-| Screen Crot!|✅|
-| Play music|✅|
-| whats anime?|✅|
-
-| Random text |Yes|
-| ------------- | ------------- |
-| Pantun pakboy|✅|
-| Fakta Menarik|✅|
-| Kata Bijak|✅|
-| Quotes|✅|
-
-| Random image |Yes|
-| ------------- | ------------- |
-| Anime |✅|
-| Kpop |✅|
-| Memes |✅|
-
-
-| Others |Yes|
-| ------------- | ------------- |
-| Teks to Sound/Voice|✅|
-| Translate teks|✅|
-| Get covid info from map|✅|
-| Covid-19 Indo|✅|
-| Shortlink|✅|
-| Bap4k F0nt|✅|
-
-| Groups |Yes|
-| ------------- | ------------- |
-| Admin||
-| Add user|✅|
-| Kick user|✅|
-| Promote User|✅|
-| Demote User|✅|
-| Delete bot msg|✅|
-| Tagall/mentions all|✅|
-| Owner||
-| Kick all members|✅|
-
-| Owner bot |Yes|
-| ------------- | ------------- |
-| Broadcast|✅|
-| Leave all group|✅|
-| Delete all msgs|✅|
-| Banned user|✅|
-
-
-## To-Do
- - Add Media Downloader
- - Add More Feature
- - More refactoring
- 
----
-
-## Troubleshooting
-Make sure all the necessary dependencies are installed: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
-
-Fix Stuck on linux, install google chrome stable: 
-```bash
-> wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-> sudo apt install ./google-chrome-stable_current_amd64.deb
-```
-
-## Thanks to
-- [WA-Automate](https://github.com/open-wa/wa-automate-nodejs)
-- [YogaSakti](https://github.com/YogaSakti/imageToSticker)
-- [MhankBarBar](https://github.com/MhankBarBar/whatsapp-bot)
-- [dandyraka](https://github.com/dandyraka/NoBadWord)
