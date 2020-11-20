@@ -26,8 +26,8 @@
 </details>
 
 todo es gratis, no seas tacaño ⭐️ sí: D
-<p align="center"><a href="https://wa.me/50662022222?text=%23menu" target="_blank">My Whatsapp BOT</a>.</p>
-<p align="center"><a href="https://wa.me/17066666666?text=hi" target="_blank">My Whatsapp</a>.</p>
+<p align="center"><a href="https://wa.me/50662022222?text=%23menu" target="_blank">Mi BOT de WhatsApp</a>.</p>
+<p align="center"><a href="https://wa.me/17066666666?text=hi" target="_blank">Mi WhatsApp</a>.</p>
 </div>
 
 ## Empecemos
