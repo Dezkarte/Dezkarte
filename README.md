@@ -38,8 +38,8 @@ Este proyecto requiere como minimo NodeJS v12 o una version superior.
 Clonar este proyecto
 
 ```bash
-> git clone https://github.com/ArugaZ/whatsapp-bot.git
-> cd whatsapp-bot
+> git clone https://github.com/Dezkarte/Dezkarte.git
+> cd Dezkarte
 ```
 
 Instalar las dependencias:
