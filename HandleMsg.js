@@ -226,7 +226,7 @@ module.exports = HandleMsg = async (aruga, message) => {
                     ? aruga.sendText(from, 'Lo sentimos, el enlace que envió no contiene una imagen.')
                     : aruga.reply(from, 'Sticker Creado Exitosamente.')).then(() => console.log(`Sticker Processed for ${processTime(t, moment())} Second`))
             } else {
-                await aruga.reply(from, `¡Sin imagen!\n\n\nEnvia una imagen y ponle de subtítulo #sticker\nTambien puedes crear un sticker usando el link de una imagen usando\n\n${prefix}sticker <enlace de imagen>`, id)
+                await aruga.reply(from, `¡Sin imagen!\n\n\nEnvia una imagen y ponle de subtítulo $sticker\nTambien puedes crear un sticker usando el link de una imagen usando\n\n${prefix}sticker <enlace de imagen>`, id)
             }
             break
         case 'stickergif':
