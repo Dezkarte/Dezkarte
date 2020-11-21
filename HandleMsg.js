@@ -146,17 +146,16 @@ module.exports = HandleMsg = async (aruga, message) => {
             if (!isGroupAdmins) return aruga.reply(from, 'Falló, este comando solo puede ser utilizado por los administradores del grupo.', id)
             await aruga.sendText(from, menuId.textAdmin())
             break
-        case 'notchaynz':
-        case 'donasi':
-            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *NotChaynz* dueño del bot', id)
+            case 'donasi':
+            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *Dezkarte* dueño del bot', id)
             await aruga.sendText(from, menuId.textDonasi())
             break
         case 'ownerbot':
             await aruga.sendContact(from, ownerNumber)
             .then(() => aruga.sendText(from, 'Si desea solicitar una función, Escribeme a mi numero personal.'))
             break
-        case 'kevin':
-            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *NotChaynz* dueño del bot', id)
+        case 'dezkarte':
+            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *Dezkarte* dueño del bot', id)
             await aruga.sendText(from, menuId.textKevin())
             break
         case 'join':
@@ -984,7 +983,7 @@ module.exports = HandleMsg = async (aruga, message) => {
 
         //Owner Bot
         case 'ban':
-            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *NotChaynz* dueño del bot', id)
+            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *Dezkarte* dueño del bot', id)
             if (args.length == 0) return aruga.reply(from, `Para prohibir que alguien use comandos\n\nuse \n${prefix}ban add xxxxx (Para Agregar A Alguien A La Lista Negra)\n${prefix}ban del xxxxx (Para Eliminar A Alguien De La Lista Negra)\n\nPara añadir mas rapidamente a mas de una persona simplemente usar:\n${prefix}ban @tag @tag @tag`, id)
             if (args[0] == 'add') {
                 banned.push(args[1]+'@c.us')
@@ -1005,19 +1004,19 @@ module.exports = HandleMsg = async (aruga, message) => {
             }
             break
         case 'bc': //untuk broadcast atau promosi
-            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *NotChaynz* dueño del bot', id)
+            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *Dezkarte* dueño del bot', id)
             if (args.length == 0) return aruga.reply(from, `Para enviar este comando usa:\n${prefix}bc [mensaje]`)
             let msg = body.slice(4)
             const chatz = await aruga.getAllChatIds()
             for (let idk of chatz) {
                 var cvk = await aruga.getChatById(idk)
-                if (!cvk.isReadOnly) aruga.sendText(idk, `〘 *_NotChaynz_* 〙\n\n${msg}`)
-                if (cvk.isReadOnly) aruga.sendText(idk, `〘 *_NotChaynz_* 〙\n\n${msg}`)
+                if (!cvk.isReadOnly) aruga.sendText(idk, `〘 *_Dezkartez_* 〙\n\n${msg}`)
+                if (cvk.isReadOnly) aruga.sendText(idk, `〘 *_Dezkarte_* 〙\n\n${msg}`)
             }
             aruga.reply(from, 'Broadcast Enviado Con Exito!', id)
             break
         case 'leaveall': //eliminar bots de todos los grupos y eliminar el chat
-            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *NotChaynz* dueño del bot', id)
+            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *Dezkarte* dueño del bot', id)
             const allChatz = await aruga.getAllChatIds()
             const allGroupz = await aruga.getAllGroups()
             for (let gclist of allGroupz) {
@@ -1028,7 +1027,7 @@ module.exports = HandleMsg = async (aruga, message) => {
             aruga.reply(from, 'El bot ha salido exitosamente de todos los grupos!', id)
             break
         case 'clearall': //Elimina todos los mensajes de la cuenta del bot
-            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *NotChaynz* dueño del bot', id)
+            if (!isOwnerBot) return aruga.reply(from, 'Este comando solo lo puede usar *Dezkarte* dueño del bot', id)
             const allChatx = await aruga.getAllChats()
             for (let dchat of allChatx) {
                 await aruga.deleteChat(dchat.id)
