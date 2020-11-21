@@ -19,7 +19,7 @@
 </p>
 <div align="center">
 <details>
- <summary>🥟 !</summary>
+ <summary>🦔🦔🦔🦔!</summary>
  
  [Trakteer](https://trakteer.id/dezkarte)
  
