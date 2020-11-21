@@ -709,7 +709,7 @@ module.exports = HandleMsg = async (aruga, message) => {
             axios.get(`https://arugaytdl.herokuapp.com/search?q=${body.slice(6)}`)
             .then(async (res) => {
                 await aruga.sendFileFromUrl(from, `${res.data[0].thumbnail}`, ``, `Canción encontrada\n\nTítulo: ${res.data[0].title}\nDuración: ${res.data[0].duration}detik\nSubida: ${res.data[0].uploadDate}\nVistas: ${res.data[0].viewCount}\n\nEnviando Musica`, id)
-                axios.get(`https://arugaz.herokuapp.com/api/yta?url=https://youtu.be/${res.data[0].id}`)
+                axios.get(`https://arugaz.herokuapp.com/api/yta?url=https://www.youtube.com/${res.data[0].id}`)
                 .then(async(rest) => {
 					if (Number(rest.data.filesize.split(' MB')[0]) >= 10.00) return aruga.reply(from, 'Lo sentimos, el tamaño del archivo es demasiado grande.')
                     await aruga.sendPtt(from, `${rest.data.result}`, id)
