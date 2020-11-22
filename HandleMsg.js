@@ -863,7 +863,7 @@ module.exports = HandleMsg = async (aruga, message) => {
             if (!isBotGroupAdmins) return aruga.reply(from, 'Falló, agregue el bot como administrador del grupo.', id)
             if (mentionedJidList.length === 0) return aruga.reply(from, 'Lo sentimos, el formato del mensaje es incorrecto.\nEtiqueta a una o más personas para eliminarlas', id)
             if (mentionedJidList[0] === botNumber) return await aruga.reply(from, 'JAJAJAJA INTENTAS HACER UNA AUTOELIMINACIÓN? .\nmorbot no puede autoeliminarse.', id)
-            await aruga.sendTextWithMentions(from, `Request diterima, mengeluarkan:\n${mentionedJidList.map(x => `@${x.replace('@c.us', '')}`).join('\n')}`)
+            await aruga.sendTextWithMentions(from, `Solicitud recibida, se ha kickeado a:\n${mentionedJidList.map(x => `@${x.replace('@c.us', '')}`).join('\n')}`)
             for (let i = 0; i < mentionedJidList.length; i++) {
                 if (groupAdmins.includes(mentionedJidList[i])) return await aruga.sendText(from, 'Error, no puede eliminar el administrador del grupo, procede primero a quitarle administración e intentalo nuevamente.')
                 await aruga.removeParticipant(groupId, mentionedJidList[i])
