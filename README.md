@@ -29,33 +29,3 @@ todo es gratis, no seas tacaño ⭐️ sí: D
 <p align="center"><a href="https://wa.me/50662022222?text=%23menu" target="_blank">Mi BOT de WhatsApp</a>.</p>
 <p align="center"><a href="https://wa.me/17066666666?text=hi" target="_blank">Mi WhatsApp</a>.</p>
 </div>
-
-## Empecemos
-
-Este proyecto requiere como minimo NodeJS v12 o una version superior.
-
-### Instalación
-Clonar este proyecto
-
-```bash
-> git clone https://github.com/Dezkarte/Dezkarte.git
-> cd Dezkarte
-```
-
-Instalar las dependencias:
-
-```bash
-> npm install 
-> npm install gify-cli -g
-```
-
-### Uso
-Ejecuta el bot de Whatsapp
-
-```bash
-> npm start
-```
-
-después de ejecutarlo, debes escanear el codigo QR
-
----
